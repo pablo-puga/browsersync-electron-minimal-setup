@@ -1,0 +1,26 @@
+{
+  "name": "browsersync-electron-minimal-setup",
+  "version": "1.0.0",
+  "description": "A minimal Electron application set to run with BrowserSync",
+  "main": "main.js",
+  "scripts": {
+    "start:dev:environment": "gulp --gulpfile gulpfile.js default",
+    "start:electron:app": "electron ."
+  },
+  "repository": "https://github.com/pablo-puga/browsersync-electron-minimal-setup",
+  "keywords": [
+    "Electron",
+    "BrowserSync",
+    "Gulp",
+    "Template"
+  ],
+  "author": "Pablo Puga",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "electron": "~1.6.2",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-run-electron": "^3.0.1"
+  }
+}
