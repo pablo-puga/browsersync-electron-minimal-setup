@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start:dev:environment": "gulp --gulpfile gulpfile.js default",
-    "start:electron:app": "electron ."
+    "start:electron:app": "electron .",
+    "build:electron:app": "gulp --gulpfile gulpfile.js build-app"
   },
   "repository": "https://github.com/pablo-puga/browsersync-electron-minimal-setup",
   "keywords": [
@@ -18,9 +19,12 @@
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
     "electron": "~1.6.2",
+    "electron-builder": "^16.8.3",
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.1.0",
+    "gulp-replace": "^0.5.4",
     "gulp-run-electron": "^3.0.1"
   }
 }
